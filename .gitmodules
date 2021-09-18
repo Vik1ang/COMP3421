@@ -1,0 +1,9 @@
+[submodule "myOpenGLStudy/lib/glfw"]
+	path = myOpenGLStudy/lib/glfw
+	url = https://github.com/glfw/glfw
+[submodule "myOpenGLStudy/lib/glad"]
+	path = myOpenGLStudy/lib/glad
+	url = https://github.com/Dav1dde/glad
+[submodule "myOpenGLStudy/lib/glm"]
+	path = myOpenGLStudy/lib/glm
+	url = https://github.com/g-truc/glm
