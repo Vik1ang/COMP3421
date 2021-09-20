@@ -5,3 +5,6 @@ target_link_libraries(hello_window PUBLIC glad glfw)
 
 add_executable(hello_triangle 2.1_hello_triangle/hello_triangle.cpp)
 target_link_libraries(hello_triangle PUBLIC glad glfw)
+
+add_executable(hello_triangle_indexed 2.2_hello_triangle_indexed/hello_triangle_indexed.cpp)
+target_link_libraries(hello_triangle_indexed PUBLIC glad glfw)
