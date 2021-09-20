@@ -8,3 +8,6 @@ target_link_libraries(hello_triangle PUBLIC glad glfw)
 
 add_executable(hello_triangle_indexed 2.2_hello_triangle_indexed/hello_triangle_indexed.cpp)
 target_link_libraries(hello_triangle_indexed PUBLIC glad glfw)
+
+add_executable(hello_triangle_exercise1 2.3_hello_triangle_exercise1/hello_triangle_exercise1.cpp)
+target_link_libraries(hello_triangle_exercise1 PUBLIC glad glfw)
