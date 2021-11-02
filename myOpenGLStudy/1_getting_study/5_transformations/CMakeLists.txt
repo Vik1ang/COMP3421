@@ -1,0 +1,5 @@
+set(CMAKE_RUNTIME_OUTPUT_DIRECTORY ${CMAKE_RUNTIME_OUTPUT_DIRECTORY}/5_transformations)
+
+add_subdirectory(5_1_transformations)
+add_subdirectory(5_2_transformations_exercise1)
+add_subdirectory(5_3_transformations_exercise2)

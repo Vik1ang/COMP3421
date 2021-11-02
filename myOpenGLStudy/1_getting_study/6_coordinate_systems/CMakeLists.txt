@@ -1,0 +1,5 @@
+set(CMAKE_RUNTIME_OUTPUT_DIRECTORY ${CMAKE_RUNTIME_OUTPUT_DIRECTORY}/6_coordinate_systems)
+
+add_subdirectory(6_1_coordinate_systems)
+add_subdirectory(6_2_coordinate_systems_depth)
+add_subdirectory(6_3_coordinate_systems_multiple)
