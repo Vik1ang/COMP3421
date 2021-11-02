@@ -1,11 +1,7 @@
 set(CMAKE_RUNTIME_OUTPUT_DIRECTORY ${CMAKE_RUNTIME_OUTPUT_DIRECTORY}/1_getting_study)
 
-add_subdirectory(1_1_hello_window)
-add_subdirectory(2_1_hello_triangle)
-add_subdirectory(2_2_hello_triangle_indexed)
-add_subdirectory(2_3_hello_triangle_exercise1)
-add_subdirectory(2_4_hello_triangle_exercise2)
-add_subdirectory(2_5_hello_triangle_exercise3)
+add_subdirectory(1_hello_window)
+add_subdirectory(2_hello_triangle)
 add_subdirectory(3_1_shaders_uniform)
 add_subdirectory(3_2_shaders_interpolation)
 add_subdirectory(3_3_shaders_class)
