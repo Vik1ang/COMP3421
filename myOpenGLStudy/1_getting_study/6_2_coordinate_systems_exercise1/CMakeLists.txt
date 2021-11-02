@@ -9,7 +9,7 @@ add_executable(${target})
 target_sources(
         ${target}
         PRIVATE
-        src/coordinate_systems.cpp
+        src/coordinate_systems_depth.cpp
         src/filesystem.hpp
         src/shader_m.hpp
 )
