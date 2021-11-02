@@ -1,0 +1,6 @@
+set(CMAKE_RUNTIME_OUTPUT_DIRECTORY ${CMAKE_RUNTIME_OUTPUT_DIRECTORY}/7_camera)
+
+add_subdirectory(7_1_camera_circle)
+add_subdirectory(7_2_camera_keyboard_dt)
+add_subdirectory(7_3_camera_mouse_zoom)
+add_subdirectory(7_4_camera_class)
