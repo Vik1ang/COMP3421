@@ -1,0 +1,8 @@
+set(CMAKE_RUNTIME_OUTPUT_DIRECTORY ${CMAKE_RUNTIME_OUTPUT_DIRECTORY}/4_textures)
+
+add_subdirectory(4_1_textures)
+add_subdirectory(4_2_textures_combined)
+add_subdirectory(4_3_textures_exercise1)
+add_subdirectory(4_4_textures_exercise2)
+add_subdirectory(4_5_textures_exercise3)
+add_subdirectory(4_6_textures_exercise4)

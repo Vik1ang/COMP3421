@@ -1,0 +1,8 @@
+set(CMAKE_RUNTIME_OUTPUT_DIRECTORY ${CMAKE_RUNTIME_OUTPUT_DIRECTORY}/3_shaders)
+
+add_subdirectory(3_1_shaders_uniform)
+add_subdirectory(3_2_shaders_interpolation)
+add_subdirectory(3_3_shaders_class)
+add_subdirectory(3_4_shaders_exercise1)
+add_subdirectory(3_5_shaders_exercise2)
+add_subdirectory(3_6_shaders_exercise3)
