@@ -1,0 +1,3 @@
+set(CMAKE_RUNTIME_OUTPUT_DIRECTORY ${CMAKE_RUNTIME_OUTPUT_DIRECTORY}/2_lighting)
+
+add_subdirectory(1_colors)

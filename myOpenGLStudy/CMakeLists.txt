@@ -29,3 +29,4 @@ configure_file(configuration/root_directory.h.in configuration/root_directory.h)
 include_directories(${CMAKE_BINARY_DIR}/configuration)
 
 add_subdirectory(1_getting_study)
+add_subdirectory(2_lighting)
