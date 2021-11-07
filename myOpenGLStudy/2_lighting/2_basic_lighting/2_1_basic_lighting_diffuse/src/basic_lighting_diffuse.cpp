@@ -7,8 +7,7 @@
 
 #include "filesystem.hpp"
 #include "camera.hpp"
-
-#include <learnopengl/shader_m.h>
+#include "shader_m.hpp"
 
 #include <iostream>
 

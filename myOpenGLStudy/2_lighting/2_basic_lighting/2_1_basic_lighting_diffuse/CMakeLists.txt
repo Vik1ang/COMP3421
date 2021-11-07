@@ -12,6 +12,7 @@ target_sources(
         src/camera.hpp
         src/filesystem.hpp
         src/basic_lighting_diffuse.cpp
+        src/shader_m.hpp
 )
 
 target_link_libraries(
