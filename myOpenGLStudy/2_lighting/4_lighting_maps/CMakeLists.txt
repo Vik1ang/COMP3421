@@ -1,0 +1,4 @@
+set(CMAKE_RUNTIME_OUTPUT_DIRECTORY ${CMAKE_RUNTIME_OUTPUT_DIRECTORY}/4_lighting_maps)
+
+add_subdirectory(4_1_lighting_maps_diffuse_map)
+add_subdirectory(4_2_lighting_maps_specular_map)
