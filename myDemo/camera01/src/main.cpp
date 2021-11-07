@@ -9,7 +9,11 @@
 
 #include <iostream>
 
-const GLuint SCR_WIDTH = 800;
+#include "imgui.h"
+#include "imgui_impl_glfw.h"
+#include "imgui_impl_opengl3.h"
+
+const GLuint SCR_WIDTH = 1200;
 const GLuint SCR_HEIGHT = 800;
 const char *TITLE = "CAMERA 01";
 
@@ -23,11 +27,11 @@ glm::vec3 cameraUp = glm::vec3(0.0f, 1.0f, 0.0f);
 
 // mouse
 bool firstMouse = true;
-float yaw   = -90.0f;	// yaw is initialized to -90.0 degrees since a yaw of 0.0 results in a direction vector pointing to the right so we initially rotate a bit to the left.
-float pitch =  0.0f;
-float lastX =  800.0f / 2.0;
-float lastY =  600.0 / 2.0;
-float fov   =  45.0f;
+float yaw = -90.0f;    // yaw is initialized to -90.0 degrees since a yaw of 0.0 results in a direction vector pointing to the right so we initially rotate a bit to the left.
+float pitch = 0.0f;
+float lastX = 800.0f / 2.0;
+float lastY = 600.0 / 2.0;
+float fov = 45.0f;
 
 void processInput(GLFWwindow *win);
 
@@ -46,6 +50,27 @@ int main() {
     glfwSetScrollCallback(win, scroll_callback);
 
     glfwSetInputMode(win, GLFW_CURSOR, GLFW_CURSOR_DISABLED);
+
+
+    //initialization (after renderer )
+    IMGUI_CHECKVERSION();
+    ImGui::CreateContext();
+    ImGui_ImplGlfw_InitForOpenGL(win, true);
+    ImGui::StyleColorsDark();
+    ImGui_ImplOpenGL3_Init((char*)glGetString(330));
+
+    //初始化各种数据
+    bool ImGui = true;
+    bool the_same_color = false;
+    bool draw_trangle_without_render = false;
+    bool draw_trangle = false;
+    bool bonus_draw_line = false;
+    bool bonus_draw_another_trangle = false;
+    bool show_demo_window = true;
+
+    ImVec4 v1 = ImVec4(-0.25f, -0.25f, 0.0f, 1.00f);
+    ImVec4 v2 = ImVec4(0.25f, -0.25f, 0.0f, 1.00f);
+    ImVec4 v3 = ImVec4(0.0f, 0.25f, 0.0f, 1.00f);
 
     // shader
     GLuint vertShader = chicken3421::make_shader("res/camera.vert", GL_VERTEX_SHADER);
@@ -167,6 +192,19 @@ int main() {
         glClearColor(0.2f, 0.3f, 0.3f, 1.0f);
         glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
 
+        ImGui_ImplOpenGL3_NewFrame();
+        ImGui::Begin("change vertex", &ImGui, ImGuiWindowFlags_MenuBar);
+        ImGui::SliderFloat("", &v3.y, -1.0f, 1.0f, "v3.y = %.3f");
+
+        ImGui::End();
+
+
+        if (show_demo_window)
+        {
+            ImGui::SetNextWindowPos(ImVec2(650, 20), ImGuiCond_FirstUseEver); // Normally user code doesn't need/want to call this because positions are saved in .ini file anyway. Here we just want to make the demo initial state a bit more friendly!
+            ImGui::ShowDemoWindow(&show_demo_window);
+        }
+
         // bind texture
         /*glActiveTexture(GL_TEXTURE0);
         glBindTexture(GL_TEXTURE_2D, texture1);*/
@@ -188,6 +226,9 @@ int main() {
         model = glm::rotate(model, glm::radians(20.0f), glm::vec3(1.0f, 0.3f, 0.5f));
         glUniformMatrix4fv(glGetUniformLocation(program, "model"), 1, GL_FALSE, &model[0][0]); // TODO: check me
         glDrawArrays(GL_TRIANGLES, 0, 36);
+
+        ImGui::Render();
+        ImGui_ImplOpenGL3_RenderDrawData(ImGui::GetDrawData());
 
         glfwSwapBuffers(win);
         glfwPollEvents();
@@ -213,10 +254,8 @@ void processInput(GLFWwindow *win) {
         cameraPos += glm::normalize(glm::cross(cameraFront, cameraUp)) * cameraSpeed;
 }
 
-void mouse_callback(GLFWwindow* window, double xpos, double ypos)
-{
-    if (firstMouse)
-    {
+void mouse_callback(GLFWwindow *window, double xpos, double ypos) {
+    if (firstMouse) {
         lastX = xpos;
         lastY = ypos;
         firstMouse = false;
@@ -247,9 +286,8 @@ void mouse_callback(GLFWwindow* window, double xpos, double ypos)
     cameraFront = glm::normalize(front);
 }
 
-void scroll_callback(GLFWwindow* window, double xoffset, double yoffset)
-{
-    fov -= (float)yoffset;
+void scroll_callback(GLFWwindow *window, double xoffset, double yoffset) {
+    fov -= (float) yoffset;
     if (fov < 1.0f)
         fov = 1.0f;
     if (fov > 45.0f)
