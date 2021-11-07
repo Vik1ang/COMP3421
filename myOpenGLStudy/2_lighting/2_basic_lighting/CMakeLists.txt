@@ -1,3 +1,4 @@
 set(CMAKE_RUNTIME_OUTPUT_DIRECTORY ${CMAKE_RUNTIME_OUTPUT_DIRECTORY}/1_colors)
 
 add_subdirectory(2_1_basic_lighting_diffuse)
+add_subdirectory(2_2_basic_lighting_specular)
