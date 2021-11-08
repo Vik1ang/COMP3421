@@ -1,0 +1,3 @@
+set(CMAKE_RUNTIME_OUTPUT_DIRECTORY ${CMAKE_RUNTIME_OUTPUT_DIRECTORY}/5_light_casters)
+
+add_subdirectory(6_1_multiple_lights)
