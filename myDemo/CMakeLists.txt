@@ -28,3 +28,4 @@ copy_resources(${CMAKE_CURRENT_LIST_DIR}/res ${CMAKE_RUNTIME_OUTPUT_DIRECTORY}/r
 include_directories(${CMAKE_BINARY_DIR}/configuration)
 
 add_subdirectory(camera01)
+add_subdirectory(camera02)
