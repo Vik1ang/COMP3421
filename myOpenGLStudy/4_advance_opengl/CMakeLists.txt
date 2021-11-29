@@ -1,0 +1,3 @@
+set(CMAKE_RUNTIME_OUTPUT_DIRECTORY ${CMAKE_RUNTIME_OUTPUT_DIRECTORY}/4_advance_opengl)
+
+add_subdirectory(5_framebuffers)

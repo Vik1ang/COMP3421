@@ -1,0 +1,3 @@
+set(CMAKE_RUNTIME_OUTPUT_DIRECTORY ${CMAKE_RUNTIME_OUTPUT_DIRECTORY}/5_framebuffers)
+
+add_subdirectory(5_1_framebuffers)

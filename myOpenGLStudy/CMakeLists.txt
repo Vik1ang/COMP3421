@@ -30,3 +30,4 @@ include_directories(${CMAKE_BINARY_DIR}/configuration)
 
 add_subdirectory(1_getting_study)
 add_subdirectory(2_lighting)
+add_subdirectory(4_advance_opengl)
