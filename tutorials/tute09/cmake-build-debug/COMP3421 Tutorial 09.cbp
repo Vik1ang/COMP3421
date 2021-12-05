@@ -1,0 +1,277 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="COMP3421 Tutorial 09"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\lib\;CMake Files\lib\lib\;CMake Files\lib\lib\cmake\;CMake Files\lib\lib\cmake\glad\;CMake Files\lib\lib\cmake\glfw3\;CMake Files\lib\lib\cmake\glm\;CMake Files\lib\lib\cmake\stb\;CMake Files\lib\lib\cmake\chicken3421\;CMake Files\lib\lib\tinyobjloader\;CMake Files\lib\lib\tinyobjloader\cmake\;CMake Files\cmake\;CMake Files\res\;CMake Files\res\obj\;CMake Files\res\obj\exterior\;CMake Files\res\obj\interior\;CMake Files\res\shaders\;CMake Files\res\skybox\;CMake Files\res\textures\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/Users/weiqiangzhuang/Doc/UNSW/COMP3421/tutorials/tute09/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/weiqiangzhuang/Doc/UNSW/COMP3421/tutorials/tute09/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/weiqiangzhuang/Doc/UNSW/COMP3421/tutorials/tute09/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/weiqiangzhuang/Doc/UNSW/COMP3421/tutorials/tute09/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/weiqiangzhuang/Doc/UNSW/COMP3421/tutorials/tute09/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/Users/weiqiangzhuang/Doc/UNSW/COMP3421/tutorials/tute09/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/weiqiangzhuang/Doc/UNSW/COMP3421/tutorials/tute09/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/weiqiangzhuang/Doc/UNSW/COMP3421/tutorials/tute09/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/weiqiangzhuang/Doc/UNSW/COMP3421/tutorials/tute09/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/weiqiangzhuang/Doc/UNSW/COMP3421/tutorials/tute09/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/Users/weiqiangzhuang/Doc/UNSW/COMP3421/tutorials/tute09/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/weiqiangzhuang/Doc/UNSW/COMP3421/tutorials/tute09/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/weiqiangzhuang/Doc/UNSW/COMP3421/tutorials/tute09/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/weiqiangzhuang/Doc/UNSW/COMP3421/tutorials/tute09/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/weiqiangzhuang/Doc/UNSW/COMP3421/tutorials/tute09/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="tute09_portal">
+				<Option output="/Users/weiqiangzhuang/Doc/UNSW/COMP3421/tutorials/tute09/bin/tute09_portal" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/weiqiangzhuang/Doc/UNSW/COMP3421/tutorials/tute09/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/weiqiangzhuang/Doc/UNSW/COMP3421/tutorials/tute09/include"/>
+					<Add directory="/Users/weiqiangzhuang/Doc/UNSW/COMP3421/tutorials/tute09/lib/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/13.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/weiqiangzhuang/Doc/UNSW/COMP3421/tutorials/tute09/cmake-build-debug/Makefile&quot;  VERBOSE=1 tute09_portal"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/weiqiangzhuang/Doc/UNSW/COMP3421/tutorials/tute09/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/weiqiangzhuang/Doc/UNSW/COMP3421/tutorials/tute09/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/weiqiangzhuang/Doc/UNSW/COMP3421/tutorials/tute09/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="tute09_portal/fast">
+				<Option output="/Users/weiqiangzhuang/Doc/UNSW/COMP3421/tutorials/tute09/bin/tute09_portal" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/weiqiangzhuang/Doc/UNSW/COMP3421/tutorials/tute09/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/weiqiangzhuang/Doc/UNSW/COMP3421/tutorials/tute09/include"/>
+					<Add directory="/Users/weiqiangzhuang/Doc/UNSW/COMP3421/tutorials/tute09/lib/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/13.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/weiqiangzhuang/Doc/UNSW/COMP3421/tutorials/tute09/cmake-build-debug/Makefile&quot;  VERBOSE=1 tute09_portal/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/weiqiangzhuang/Doc/UNSW/COMP3421/tutorials/tute09/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/weiqiangzhuang/Doc/UNSW/COMP3421/tutorials/tute09/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/weiqiangzhuang/Doc/UNSW/COMP3421/tutorials/tute09/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/Users/weiqiangzhuang/Doc/UNSW/COMP3421/tutorials/tute09/include/tute09/camera.hpp">
+			<Option target="tute09_portal"/>
+		</Unit>
+		<Unit filename="/Users/weiqiangzhuang/Doc/UNSW/COMP3421/tutorials/tute09/include/tute09/memes.hpp">
+			<Option target="tute09_portal"/>
+		</Unit>
+		<Unit filename="/Users/weiqiangzhuang/Doc/UNSW/COMP3421/tutorials/tute09/include/tute09/model.hpp">
+			<Option target="tute09_portal"/>
+		</Unit>
+		<Unit filename="/Users/weiqiangzhuang/Doc/UNSW/COMP3421/tutorials/tute09/include/tute09/renderer.hpp">
+			<Option target="tute09_portal"/>
+		</Unit>
+		<Unit filename="/Users/weiqiangzhuang/Doc/UNSW/COMP3421/tutorials/tute09/include/tute09/scene.hpp">
+			<Option target="tute09_portal"/>
+		</Unit>
+		<Unit filename="/Users/weiqiangzhuang/Doc/UNSW/COMP3421/tutorials/tute09/src/camera.cpp">
+			<Option target="tute09_portal"/>
+		</Unit>
+		<Unit filename="/Users/weiqiangzhuang/Doc/UNSW/COMP3421/tutorials/tute09/src/cubemap.cpp">
+			<Option target="tute09_portal"/>
+		</Unit>
+		<Unit filename="/Users/weiqiangzhuang/Doc/UNSW/COMP3421/tutorials/tute09/src/framebuffer.cpp">
+			<Option target="tute09_portal"/>
+		</Unit>
+		<Unit filename="/Users/weiqiangzhuang/Doc/UNSW/COMP3421/tutorials/tute09/src/main.cpp">
+			<Option target="tute09_portal"/>
+		</Unit>
+		<Unit filename="/Users/weiqiangzhuang/Doc/UNSW/COMP3421/tutorials/tute09/src/memes.cpp">
+			<Option target="tute09_portal"/>
+		</Unit>
+		<Unit filename="/Users/weiqiangzhuang/Doc/UNSW/COMP3421/tutorials/tute09/src/model.cpp">
+			<Option target="tute09_portal"/>
+		</Unit>
+		<Unit filename="/Users/weiqiangzhuang/Doc/UNSW/COMP3421/tutorials/tute09/src/renderer.cpp">
+			<Option target="tute09_portal"/>
+		</Unit>
+		<Unit filename="/Users/weiqiangzhuang/Doc/UNSW/COMP3421/tutorials/tute09/src/scene.cpp">
+			<Option target="tute09_portal"/>
+		</Unit>
+		<Unit filename="/Users/weiqiangzhuang/Doc/UNSW/COMP3421/tutorials/tute09/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/Users/weiqiangzhuang/Doc/UNSW/COMP3421/tutorials/tute09/lib/lib/cmake/glad/gladConfig.cmake">
+			<Option virtualFolder="CMake Files\lib\lib\cmake\glad\"/>
+		</Unit>
+		<Unit filename="/Users/weiqiangzhuang/Doc/UNSW/COMP3421/tutorials/tute09/lib/lib/cmake/glad/gladConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\lib\lib\cmake\glad\"/>
+		</Unit>
+		<Unit filename="/Users/weiqiangzhuang/Doc/UNSW/COMP3421/tutorials/tute09/lib/lib/cmake/glad/gladTargets-default.cmake">
+			<Option virtualFolder="CMake Files\lib\lib\cmake\glad\"/>
+		</Unit>
+		<Unit filename="/Users/weiqiangzhuang/Doc/UNSW/COMP3421/tutorials/tute09/lib/lib/cmake/glad/gladTargets.cmake">
+			<Option virtualFolder="CMake Files\lib\lib\cmake\glad\"/>
+		</Unit>
+		<Unit filename="/Users/weiqiangzhuang/Doc/UNSW/COMP3421/tutorials/tute09/lib/lib/cmake/glfw3/glfw3Config.cmake">
+			<Option virtualFolder="CMake Files\lib\lib\cmake\glfw3\"/>
+		</Unit>
+		<Unit filename="/Users/weiqiangzhuang/Doc/UNSW/COMP3421/tutorials/tute09/lib/lib/cmake/glfw3/glfw3ConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\lib\lib\cmake\glfw3\"/>
+		</Unit>
+		<Unit filename="/Users/weiqiangzhuang/Doc/UNSW/COMP3421/tutorials/tute09/lib/lib/cmake/glfw3/glfw3Targets-default.cmake">
+			<Option virtualFolder="CMake Files\lib\lib\cmake\glfw3\"/>
+		</Unit>
+		<Unit filename="/Users/weiqiangzhuang/Doc/UNSW/COMP3421/tutorials/tute09/lib/lib/cmake/glfw3/glfw3Targets.cmake">
+			<Option virtualFolder="CMake Files\lib\lib\cmake\glfw3\"/>
+		</Unit>
+		<Unit filename="/Users/weiqiangzhuang/Doc/UNSW/COMP3421/tutorials/tute09/lib/lib/cmake/glm/glmConfig.cmake">
+			<Option virtualFolder="CMake Files\lib\lib\cmake\glm\"/>
+		</Unit>
+		<Unit filename="/Users/weiqiangzhuang/Doc/UNSW/COMP3421/tutorials/tute09/lib/lib/cmake/glm/glmConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\lib\lib\cmake\glm\"/>
+		</Unit>
+		<Unit filename="/Users/weiqiangzhuang/Doc/UNSW/COMP3421/tutorials/tute09/lib/lib/cmake/stb/stbConfig.cmake">
+			<Option virtualFolder="CMake Files\lib\lib\cmake\stb\"/>
+		</Unit>
+		<Unit filename="/Users/weiqiangzhuang/Doc/UNSW/COMP3421/tutorials/tute09/lib/lib/cmake/stb/stbConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\lib\lib\cmake\stb\"/>
+		</Unit>
+		<Unit filename="/Users/weiqiangzhuang/Doc/UNSW/COMP3421/tutorials/tute09/lib/lib/cmake/stb/stbTargets-default.cmake">
+			<Option virtualFolder="CMake Files\lib\lib\cmake\stb\"/>
+		</Unit>
+		<Unit filename="/Users/weiqiangzhuang/Doc/UNSW/COMP3421/tutorials/tute09/lib/lib/cmake/stb/stbTargets.cmake">
+			<Option virtualFolder="CMake Files\lib\lib\cmake\stb\"/>
+		</Unit>
+		<Unit filename="/Users/weiqiangzhuang/Doc/UNSW/COMP3421/tutorials/tute09/lib/lib/cmake/chicken3421/chicken3421Config.cmake">
+			<Option virtualFolder="CMake Files\lib\lib\cmake\chicken3421\"/>
+		</Unit>
+		<Unit filename="/Users/weiqiangzhuang/Doc/UNSW/COMP3421/tutorials/tute09/lib/lib/cmake/chicken3421/chicken3421ConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\lib\lib\cmake\chicken3421\"/>
+		</Unit>
+		<Unit filename="/Users/weiqiangzhuang/Doc/UNSW/COMP3421/tutorials/tute09/lib/lib/cmake/chicken3421/chicken3421Targets-default.cmake">
+			<Option virtualFolder="CMake Files\lib\lib\cmake\chicken3421\"/>
+		</Unit>
+		<Unit filename="/Users/weiqiangzhuang/Doc/UNSW/COMP3421/tutorials/tute09/lib/lib/cmake/chicken3421/chicken3421Targets.cmake">
+			<Option virtualFolder="CMake Files\lib\lib\cmake\chicken3421\"/>
+		</Unit>
+		<Unit filename="/Users/weiqiangzhuang/Doc/UNSW/COMP3421/tutorials/tute09/lib/lib/tinyobjloader/cmake/tinyobjloader-config-version.cmake">
+			<Option virtualFolder="CMake Files\lib\lib\tinyobjloader\cmake\"/>
+		</Unit>
+		<Unit filename="/Users/weiqiangzhuang/Doc/UNSW/COMP3421/tutorials/tute09/lib/lib/tinyobjloader/cmake/tinyobjloader-config.cmake">
+			<Option virtualFolder="CMake Files\lib\lib\tinyobjloader\cmake\"/>
+		</Unit>
+		<Unit filename="/Users/weiqiangzhuang/Doc/UNSW/COMP3421/tutorials/tute09/lib/lib/tinyobjloader/cmake/tinyobjloader-targets-default.cmake">
+			<Option virtualFolder="CMake Files\lib\lib\tinyobjloader\cmake\"/>
+		</Unit>
+		<Unit filename="/Users/weiqiangzhuang/Doc/UNSW/COMP3421/tutorials/tute09/lib/lib/tinyobjloader/cmake/tinyobjloader-targets.cmake">
+			<Option virtualFolder="CMake Files\lib\lib\tinyobjloader\cmake\"/>
+		</Unit>
+		<Unit filename="/Users/weiqiangzhuang/Doc/UNSW/COMP3421/tutorials/tute09/cmake/copy_resources.cmake">
+			<Option virtualFolder="CMake Files\cmake\"/>
+		</Unit>
+		<Unit filename="/Users/weiqiangzhuang/Doc/UNSW/COMP3421/tutorials/tute09/res/obj/exterior/GRASS.jpg">
+			<Option virtualFolder="CMake Files\res\obj\exterior\"/>
+		</Unit>
+		<Unit filename="/Users/weiqiangzhuang/Doc/UNSW/COMP3421/tutorials/tute09/res/obj/exterior/exterior.mtl">
+			<Option virtualFolder="CMake Files\res\obj\exterior\"/>
+		</Unit>
+		<Unit filename="/Users/weiqiangzhuang/Doc/UNSW/COMP3421/tutorials/tute09/res/obj/exterior/exterior.obj">
+			<Option virtualFolder="CMake Files\res\obj\exterior\"/>
+		</Unit>
+		<Unit filename="/Users/weiqiangzhuang/Doc/UNSW/COMP3421/tutorials/tute09/res/obj/exterior/exterior_portal.mtl">
+			<Option virtualFolder="CMake Files\res\obj\exterior\"/>
+		</Unit>
+		<Unit filename="/Users/weiqiangzhuang/Doc/UNSW/COMP3421/tutorials/tute09/res/obj/exterior/exterior_portal.obj">
+			<Option virtualFolder="CMake Files\res\obj\exterior\"/>
+		</Unit>
+		<Unit filename="/Users/weiqiangzhuang/Doc/UNSW/COMP3421/tutorials/tute09/res/obj/exterior/hilly_terrain_01.jpg">
+			<Option virtualFolder="CMake Files\res\obj\exterior\"/>
+		</Unit>
+		<Unit filename="/Users/weiqiangzhuang/Doc/UNSW/COMP3421/tutorials/tute09/res/obj/interior/ceiling.jpg">
+			<Option virtualFolder="CMake Files\res\obj\interior\"/>
+		</Unit>
+		<Unit filename="/Users/weiqiangzhuang/Doc/UNSW/COMP3421/tutorials/tute09/res/obj/interior/display.png">
+			<Option virtualFolder="CMake Files\res\obj\interior\"/>
+		</Unit>
+		<Unit filename="/Users/weiqiangzhuang/Doc/UNSW/COMP3421/tutorials/tute09/res/obj/interior/interior.mtl">
+			<Option virtualFolder="CMake Files\res\obj\interior\"/>
+		</Unit>
+		<Unit filename="/Users/weiqiangzhuang/Doc/UNSW/COMP3421/tutorials/tute09/res/obj/interior/interior.obj">
+			<Option virtualFolder="CMake Files\res\obj\interior\"/>
+		</Unit>
+		<Unit filename="/Users/weiqiangzhuang/Doc/UNSW/COMP3421/tutorials/tute09/res/obj/interior/interior_portal.mtl">
+			<Option virtualFolder="CMake Files\res\obj\interior\"/>
+		</Unit>
+		<Unit filename="/Users/weiqiangzhuang/Doc/UNSW/COMP3421/tutorials/tute09/res/obj/interior/interior_portal.obj">
+			<Option virtualFolder="CMake Files\res\obj\interior\"/>
+		</Unit>
+		<Unit filename="/Users/weiqiangzhuang/Doc/UNSW/COMP3421/tutorials/tute09/res/obj/interior/wall.jpg">
+			<Option virtualFolder="CMake Files\res\obj\interior\"/>
+		</Unit>
+		<Unit filename="/Users/weiqiangzhuang/Doc/UNSW/COMP3421/tutorials/tute09/res/shaders/portal.frag">
+			<Option virtualFolder="CMake Files\res\shaders\"/>
+		</Unit>
+		<Unit filename="/Users/weiqiangzhuang/Doc/UNSW/COMP3421/tutorials/tute09/res/shaders/portal.vert">
+			<Option virtualFolder="CMake Files\res\shaders\"/>
+		</Unit>
+		<Unit filename="/Users/weiqiangzhuang/Doc/UNSW/COMP3421/tutorials/tute09/res/shaders/reflective.frag">
+			<Option virtualFolder="CMake Files\res\shaders\"/>
+		</Unit>
+		<Unit filename="/Users/weiqiangzhuang/Doc/UNSW/COMP3421/tutorials/tute09/res/shaders/reflective.vert">
+			<Option virtualFolder="CMake Files\res\shaders\"/>
+		</Unit>
+		<Unit filename="/Users/weiqiangzhuang/Doc/UNSW/COMP3421/tutorials/tute09/res/shaders/static_mesh.frag">
+			<Option virtualFolder="CMake Files\res\shaders\"/>
+		</Unit>
+		<Unit filename="/Users/weiqiangzhuang/Doc/UNSW/COMP3421/tutorials/tute09/res/shaders/static_mesh.vert">
+			<Option virtualFolder="CMake Files\res\shaders\"/>
+		</Unit>
+		<Unit filename="/Users/weiqiangzhuang/Doc/UNSW/COMP3421/tutorials/tute09/res/skybox/sky_back.jpg">
+			<Option virtualFolder="CMake Files\res\skybox\"/>
+		</Unit>
+		<Unit filename="/Users/weiqiangzhuang/Doc/UNSW/COMP3421/tutorials/tute09/res/skybox/sky_bottom.jpg">
+			<Option virtualFolder="CMake Files\res\skybox\"/>
+		</Unit>
+		<Unit filename="/Users/weiqiangzhuang/Doc/UNSW/COMP3421/tutorials/tute09/res/skybox/sky_front.jpg">
+			<Option virtualFolder="CMake Files\res\skybox\"/>
+		</Unit>
+		<Unit filename="/Users/weiqiangzhuang/Doc/UNSW/COMP3421/tutorials/tute09/res/skybox/sky_left.jpg">
+			<Option virtualFolder="CMake Files\res\skybox\"/>
+		</Unit>
+		<Unit filename="/Users/weiqiangzhuang/Doc/UNSW/COMP3421/tutorials/tute09/res/skybox/sky_right.jpg">
+			<Option virtualFolder="CMake Files\res\skybox\"/>
+		</Unit>
+		<Unit filename="/Users/weiqiangzhuang/Doc/UNSW/COMP3421/tutorials/tute09/res/skybox/sky_top.jpg">
+			<Option virtualFolder="CMake Files\res\skybox\"/>
+		</Unit>
+		<Unit filename="/Users/weiqiangzhuang/Doc/UNSW/COMP3421/tutorials/tute09/res/textures/marccoin.png">
+			<Option virtualFolder="CMake Files\res\textures\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

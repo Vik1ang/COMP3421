@@ -1,0 +1,400 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="My Demo"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\lib\;CMake Files\lib\lib\;CMake Files\lib\lib\cmake\;CMake Files\lib\lib\cmake\glad\;CMake Files\lib\lib\cmake\glfw3\;CMake Files\lib\lib\cmake\glm\;CMake Files\lib\lib\cmake\stb\;CMake Files\lib\lib\cmake\chicken3421\;CMake Files\lib\lib\tinyobjloader\;CMake Files\lib\lib\tinyobjloader\cmake\;CMake Files\cmake\;CMake Files\camera01\;CMake Files\camera01\res\;CMake Files\camera02\;CMake Files\camera02\res\;CMake Files\camera02\res\shaders\;CMake Files\camera02\res\textures\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/Users/weiqiangzhuang/Doc/UNSW/COMP3421/myDemo/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/weiqiangzhuang/Doc/UNSW/COMP3421/myDemo/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/weiqiangzhuang/Doc/UNSW/COMP3421/myDemo/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/weiqiangzhuang/Doc/UNSW/COMP3421/myDemo/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/weiqiangzhuang/Doc/UNSW/COMP3421/myDemo/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/Users/weiqiangzhuang/Doc/UNSW/COMP3421/myDemo/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/weiqiangzhuang/Doc/UNSW/COMP3421/myDemo/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/weiqiangzhuang/Doc/UNSW/COMP3421/myDemo/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/weiqiangzhuang/Doc/UNSW/COMP3421/myDemo/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/weiqiangzhuang/Doc/UNSW/COMP3421/myDemo/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/Users/weiqiangzhuang/Doc/UNSW/COMP3421/myDemo/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/weiqiangzhuang/Doc/UNSW/COMP3421/myDemo/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/weiqiangzhuang/Doc/UNSW/COMP3421/myDemo/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/weiqiangzhuang/Doc/UNSW/COMP3421/myDemo/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/weiqiangzhuang/Doc/UNSW/COMP3421/myDemo/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="camera01">
+				<Option output="/Users/weiqiangzhuang/Doc/UNSW/COMP3421/myDemo/bin/camera01/camera01" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/weiqiangzhuang/Doc/UNSW/COMP3421/myDemo/bin/camera01"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/weiqiangzhuang/Doc/UNSW/COMP3421/myDemo/cmake-build-debug/configuration"/>
+					<Add directory="/Users/weiqiangzhuang/Doc/UNSW/COMP3421/myDemo/camera01"/>
+					<Add directory="/Users/weiqiangzhuang/Doc/UNSW/COMP3421/myDemo/camera01/./include"/>
+					<Add directory="/Users/weiqiangzhuang/Doc/UNSW/COMP3421/myDemo/lib/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/13.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/weiqiangzhuang/Doc/UNSW/COMP3421/myDemo/cmake-build-debug/camera01/Makefile&quot;  VERBOSE=1 camera01"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/weiqiangzhuang/Doc/UNSW/COMP3421/myDemo/cmake-build-debug/camera01/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/weiqiangzhuang/Doc/UNSW/COMP3421/myDemo/cmake-build-debug/camera01/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/weiqiangzhuang/Doc/UNSW/COMP3421/myDemo/cmake-build-debug/camera01/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="camera01/fast">
+				<Option output="/Users/weiqiangzhuang/Doc/UNSW/COMP3421/myDemo/bin/camera01/camera01" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/weiqiangzhuang/Doc/UNSW/COMP3421/myDemo/bin/camera01"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/weiqiangzhuang/Doc/UNSW/COMP3421/myDemo/cmake-build-debug/configuration"/>
+					<Add directory="/Users/weiqiangzhuang/Doc/UNSW/COMP3421/myDemo/camera01"/>
+					<Add directory="/Users/weiqiangzhuang/Doc/UNSW/COMP3421/myDemo/camera01/./include"/>
+					<Add directory="/Users/weiqiangzhuang/Doc/UNSW/COMP3421/myDemo/lib/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/13.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/weiqiangzhuang/Doc/UNSW/COMP3421/myDemo/cmake-build-debug/camera01/Makefile&quot;  VERBOSE=1 camera01/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/weiqiangzhuang/Doc/UNSW/COMP3421/myDemo/cmake-build-debug/camera01/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/weiqiangzhuang/Doc/UNSW/COMP3421/myDemo/cmake-build-debug/camera01/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/weiqiangzhuang/Doc/UNSW/COMP3421/myDemo/cmake-build-debug/camera01/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="camera02">
+				<Option output="/Users/weiqiangzhuang/Doc/UNSW/COMP3421/myDemo/bin/camera02/camera02" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/weiqiangzhuang/Doc/UNSW/COMP3421/myDemo/bin/camera02"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/weiqiangzhuang/Doc/UNSW/COMP3421/myDemo/cmake-build-debug/configuration"/>
+					<Add directory="/Users/weiqiangzhuang/Doc/UNSW/COMP3421/myDemo/camera02"/>
+					<Add directory="/Users/weiqiangzhuang/Doc/UNSW/COMP3421/myDemo/camera02/./include"/>
+					<Add directory="/Users/weiqiangzhuang/Doc/UNSW/COMP3421/myDemo/lib/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/13.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/weiqiangzhuang/Doc/UNSW/COMP3421/myDemo/cmake-build-debug/camera02/Makefile&quot;  VERBOSE=1 camera02"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/weiqiangzhuang/Doc/UNSW/COMP3421/myDemo/cmake-build-debug/camera02/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/weiqiangzhuang/Doc/UNSW/COMP3421/myDemo/cmake-build-debug/camera02/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/weiqiangzhuang/Doc/UNSW/COMP3421/myDemo/cmake-build-debug/camera02/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="camera02/fast">
+				<Option output="/Users/weiqiangzhuang/Doc/UNSW/COMP3421/myDemo/bin/camera02/camera02" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/weiqiangzhuang/Doc/UNSW/COMP3421/myDemo/bin/camera02"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/weiqiangzhuang/Doc/UNSW/COMP3421/myDemo/cmake-build-debug/configuration"/>
+					<Add directory="/Users/weiqiangzhuang/Doc/UNSW/COMP3421/myDemo/camera02"/>
+					<Add directory="/Users/weiqiangzhuang/Doc/UNSW/COMP3421/myDemo/camera02/./include"/>
+					<Add directory="/Users/weiqiangzhuang/Doc/UNSW/COMP3421/myDemo/lib/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/13.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/weiqiangzhuang/Doc/UNSW/COMP3421/myDemo/cmake-build-debug/camera02/Makefile&quot;  VERBOSE=1 camera02/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/weiqiangzhuang/Doc/UNSW/COMP3421/myDemo/cmake-build-debug/camera02/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/weiqiangzhuang/Doc/UNSW/COMP3421/myDemo/cmake-build-debug/camera02/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/weiqiangzhuang/Doc/UNSW/COMP3421/myDemo/cmake-build-debug/camera02/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/Users/weiqiangzhuang/Doc/UNSW/COMP3421/myDemo/camera01/src/imgui.cpp">
+			<Option target="camera01"/>
+		</Unit>
+		<Unit filename="/Users/weiqiangzhuang/Doc/UNSW/COMP3421/myDemo/camera01/src/imgui.h">
+			<Option target="camera01"/>
+		</Unit>
+		<Unit filename="/Users/weiqiangzhuang/Doc/UNSW/COMP3421/myDemo/camera01/src/imgui_demo.cpp">
+			<Option target="camera01"/>
+		</Unit>
+		<Unit filename="/Users/weiqiangzhuang/Doc/UNSW/COMP3421/myDemo/camera01/src/imgui_draw.cpp">
+			<Option target="camera01"/>
+		</Unit>
+		<Unit filename="/Users/weiqiangzhuang/Doc/UNSW/COMP3421/myDemo/camera01/src/imgui_impl_glfw.cpp">
+			<Option target="camera01"/>
+		</Unit>
+		<Unit filename="/Users/weiqiangzhuang/Doc/UNSW/COMP3421/myDemo/camera01/src/imgui_impl_glfw.h">
+			<Option target="camera01"/>
+		</Unit>
+		<Unit filename="/Users/weiqiangzhuang/Doc/UNSW/COMP3421/myDemo/camera01/src/imgui_impl_opengl3.cpp">
+			<Option target="camera01"/>
+		</Unit>
+		<Unit filename="/Users/weiqiangzhuang/Doc/UNSW/COMP3421/myDemo/camera01/src/imgui_impl_opengl3.h">
+			<Option target="camera01"/>
+		</Unit>
+		<Unit filename="/Users/weiqiangzhuang/Doc/UNSW/COMP3421/myDemo/camera01/src/imgui_impl_opengl3_loader.h">
+			<Option target="camera01"/>
+		</Unit>
+		<Unit filename="/Users/weiqiangzhuang/Doc/UNSW/COMP3421/myDemo/camera01/src/imgui_internal.h">
+			<Option target="camera01"/>
+		</Unit>
+		<Unit filename="/Users/weiqiangzhuang/Doc/UNSW/COMP3421/myDemo/camera01/src/imgui_tables.cpp">
+			<Option target="camera01"/>
+		</Unit>
+		<Unit filename="/Users/weiqiangzhuang/Doc/UNSW/COMP3421/myDemo/camera01/src/imgui_widgets.cpp">
+			<Option target="camera01"/>
+		</Unit>
+		<Unit filename="/Users/weiqiangzhuang/Doc/UNSW/COMP3421/myDemo/camera01/src/imstb_rectpack.h">
+			<Option target="camera01"/>
+		</Unit>
+		<Unit filename="/Users/weiqiangzhuang/Doc/UNSW/COMP3421/myDemo/camera01/src/imstb_textedit.h">
+			<Option target="camera01"/>
+		</Unit>
+		<Unit filename="/Users/weiqiangzhuang/Doc/UNSW/COMP3421/myDemo/camera01/src/imstb_truetype.h">
+			<Option target="camera01"/>
+		</Unit>
+		<Unit filename="/Users/weiqiangzhuang/Doc/UNSW/COMP3421/myDemo/camera01/src/main.cpp">
+			<Option target="camera01"/>
+		</Unit>
+		<Unit filename="/Users/weiqiangzhuang/Doc/UNSW/COMP3421/myDemo/camera02/src/euler_camera.cpp">
+			<Option target="camera02"/>
+		</Unit>
+		<Unit filename="/Users/weiqiangzhuang/Doc/UNSW/COMP3421/myDemo/camera02/src/euler_camera.hpp">
+			<Option target="camera02"/>
+		</Unit>
+		<Unit filename="/Users/weiqiangzhuang/Doc/UNSW/COMP3421/myDemo/camera02/src/imgui.cpp">
+			<Option target="camera02"/>
+		</Unit>
+		<Unit filename="/Users/weiqiangzhuang/Doc/UNSW/COMP3421/myDemo/camera02/src/imgui.h">
+			<Option target="camera02"/>
+		</Unit>
+		<Unit filename="/Users/weiqiangzhuang/Doc/UNSW/COMP3421/myDemo/camera02/src/imgui_demo.cpp">
+			<Option target="camera02"/>
+		</Unit>
+		<Unit filename="/Users/weiqiangzhuang/Doc/UNSW/COMP3421/myDemo/camera02/src/imgui_draw.cpp">
+			<Option target="camera02"/>
+		</Unit>
+		<Unit filename="/Users/weiqiangzhuang/Doc/UNSW/COMP3421/myDemo/camera02/src/imgui_impl_glfw.cpp">
+			<Option target="camera02"/>
+		</Unit>
+		<Unit filename="/Users/weiqiangzhuang/Doc/UNSW/COMP3421/myDemo/camera02/src/imgui_impl_glfw.h">
+			<Option target="camera02"/>
+		</Unit>
+		<Unit filename="/Users/weiqiangzhuang/Doc/UNSW/COMP3421/myDemo/camera02/src/imgui_impl_opengl3.cpp">
+			<Option target="camera02"/>
+		</Unit>
+		<Unit filename="/Users/weiqiangzhuang/Doc/UNSW/COMP3421/myDemo/camera02/src/imgui_impl_opengl3.h">
+			<Option target="camera02"/>
+		</Unit>
+		<Unit filename="/Users/weiqiangzhuang/Doc/UNSW/COMP3421/myDemo/camera02/src/imgui_impl_opengl3_loader.h">
+			<Option target="camera02"/>
+		</Unit>
+		<Unit filename="/Users/weiqiangzhuang/Doc/UNSW/COMP3421/myDemo/camera02/src/imgui_internal.h">
+			<Option target="camera02"/>
+		</Unit>
+		<Unit filename="/Users/weiqiangzhuang/Doc/UNSW/COMP3421/myDemo/camera02/src/imgui_tables.cpp">
+			<Option target="camera02"/>
+		</Unit>
+		<Unit filename="/Users/weiqiangzhuang/Doc/UNSW/COMP3421/myDemo/camera02/src/imgui_widgets.cpp">
+			<Option target="camera02"/>
+		</Unit>
+		<Unit filename="/Users/weiqiangzhuang/Doc/UNSW/COMP3421/myDemo/camera02/src/imstb_rectpack.h">
+			<Option target="camera02"/>
+		</Unit>
+		<Unit filename="/Users/weiqiangzhuang/Doc/UNSW/COMP3421/myDemo/camera02/src/imstb_textedit.h">
+			<Option target="camera02"/>
+		</Unit>
+		<Unit filename="/Users/weiqiangzhuang/Doc/UNSW/COMP3421/myDemo/camera02/src/imstb_truetype.h">
+			<Option target="camera02"/>
+		</Unit>
+		<Unit filename="/Users/weiqiangzhuang/Doc/UNSW/COMP3421/myDemo/camera02/src/main.cpp">
+			<Option target="camera02"/>
+		</Unit>
+		<Unit filename="/Users/weiqiangzhuang/Doc/UNSW/COMP3421/myDemo/camera02/src/memes.cpp">
+			<Option target="camera02"/>
+		</Unit>
+		<Unit filename="/Users/weiqiangzhuang/Doc/UNSW/COMP3421/myDemo/camera02/src/memes.hpp">
+			<Option target="camera02"/>
+		</Unit>
+		<Unit filename="/Users/weiqiangzhuang/Doc/UNSW/COMP3421/myDemo/camera02/src/scene.cpp">
+			<Option target="camera02"/>
+		</Unit>
+		<Unit filename="/Users/weiqiangzhuang/Doc/UNSW/COMP3421/myDemo/camera02/src/scene.hpp">
+			<Option target="camera02"/>
+		</Unit>
+		<Unit filename="/Users/weiqiangzhuang/Doc/UNSW/COMP3421/myDemo/camera02/src/shapes.cpp">
+			<Option target="camera02"/>
+		</Unit>
+		<Unit filename="/Users/weiqiangzhuang/Doc/UNSW/COMP3421/myDemo/camera02/src/shapes.hpp">
+			<Option target="camera02"/>
+		</Unit>
+		<Unit filename="/Users/weiqiangzhuang/Doc/UNSW/COMP3421/myDemo/camera02/src/static_mesh.cpp">
+			<Option target="camera02"/>
+		</Unit>
+		<Unit filename="/Users/weiqiangzhuang/Doc/UNSW/COMP3421/myDemo/camera02/src/static_mesh.hpp">
+			<Option target="camera02"/>
+		</Unit>
+		<Unit filename="/Users/weiqiangzhuang/Doc/UNSW/COMP3421/myDemo/camera02/src/texture_2d.cpp">
+			<Option target="camera02"/>
+		</Unit>
+		<Unit filename="/Users/weiqiangzhuang/Doc/UNSW/COMP3421/myDemo/camera02/src/texture_2d.hpp">
+			<Option target="camera02"/>
+		</Unit>
+		<Unit filename="/Users/weiqiangzhuang/Doc/UNSW/COMP3421/myDemo/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/Users/weiqiangzhuang/Doc/UNSW/COMP3421/myDemo/lib/lib/cmake/glad/gladConfig.cmake">
+			<Option virtualFolder="CMake Files\lib\lib\cmake\glad\"/>
+		</Unit>
+		<Unit filename="/Users/weiqiangzhuang/Doc/UNSW/COMP3421/myDemo/lib/lib/cmake/glad/gladConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\lib\lib\cmake\glad\"/>
+		</Unit>
+		<Unit filename="/Users/weiqiangzhuang/Doc/UNSW/COMP3421/myDemo/lib/lib/cmake/glad/gladTargets-default.cmake">
+			<Option virtualFolder="CMake Files\lib\lib\cmake\glad\"/>
+		</Unit>
+		<Unit filename="/Users/weiqiangzhuang/Doc/UNSW/COMP3421/myDemo/lib/lib/cmake/glad/gladTargets.cmake">
+			<Option virtualFolder="CMake Files\lib\lib\cmake\glad\"/>
+		</Unit>
+		<Unit filename="/Users/weiqiangzhuang/Doc/UNSW/COMP3421/myDemo/lib/lib/cmake/glfw3/glfw3Config.cmake">
+			<Option virtualFolder="CMake Files\lib\lib\cmake\glfw3\"/>
+		</Unit>
+		<Unit filename="/Users/weiqiangzhuang/Doc/UNSW/COMP3421/myDemo/lib/lib/cmake/glfw3/glfw3ConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\lib\lib\cmake\glfw3\"/>
+		</Unit>
+		<Unit filename="/Users/weiqiangzhuang/Doc/UNSW/COMP3421/myDemo/lib/lib/cmake/glfw3/glfw3Targets-default.cmake">
+			<Option virtualFolder="CMake Files\lib\lib\cmake\glfw3\"/>
+		</Unit>
+		<Unit filename="/Users/weiqiangzhuang/Doc/UNSW/COMP3421/myDemo/lib/lib/cmake/glfw3/glfw3Targets.cmake">
+			<Option virtualFolder="CMake Files\lib\lib\cmake\glfw3\"/>
+		</Unit>
+		<Unit filename="/Users/weiqiangzhuang/Doc/UNSW/COMP3421/myDemo/lib/lib/cmake/glm/glmConfig.cmake">
+			<Option virtualFolder="CMake Files\lib\lib\cmake\glm\"/>
+		</Unit>
+		<Unit filename="/Users/weiqiangzhuang/Doc/UNSW/COMP3421/myDemo/lib/lib/cmake/glm/glmConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\lib\lib\cmake\glm\"/>
+		</Unit>
+		<Unit filename="/Users/weiqiangzhuang/Doc/UNSW/COMP3421/myDemo/lib/lib/cmake/stb/stbConfig.cmake">
+			<Option virtualFolder="CMake Files\lib\lib\cmake\stb\"/>
+		</Unit>
+		<Unit filename="/Users/weiqiangzhuang/Doc/UNSW/COMP3421/myDemo/lib/lib/cmake/stb/stbConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\lib\lib\cmake\stb\"/>
+		</Unit>
+		<Unit filename="/Users/weiqiangzhuang/Doc/UNSW/COMP3421/myDemo/lib/lib/cmake/stb/stbTargets-default.cmake">
+			<Option virtualFolder="CMake Files\lib\lib\cmake\stb\"/>
+		</Unit>
+		<Unit filename="/Users/weiqiangzhuang/Doc/UNSW/COMP3421/myDemo/lib/lib/cmake/stb/stbTargets.cmake">
+			<Option virtualFolder="CMake Files\lib\lib\cmake\stb\"/>
+		</Unit>
+		<Unit filename="/Users/weiqiangzhuang/Doc/UNSW/COMP3421/myDemo/lib/lib/cmake/chicken3421/chicken3421Config.cmake">
+			<Option virtualFolder="CMake Files\lib\lib\cmake\chicken3421\"/>
+		</Unit>
+		<Unit filename="/Users/weiqiangzhuang/Doc/UNSW/COMP3421/myDemo/lib/lib/cmake/chicken3421/chicken3421ConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\lib\lib\cmake\chicken3421\"/>
+		</Unit>
+		<Unit filename="/Users/weiqiangzhuang/Doc/UNSW/COMP3421/myDemo/lib/lib/cmake/chicken3421/chicken3421Targets-default.cmake">
+			<Option virtualFolder="CMake Files\lib\lib\cmake\chicken3421\"/>
+		</Unit>
+		<Unit filename="/Users/weiqiangzhuang/Doc/UNSW/COMP3421/myDemo/lib/lib/cmake/chicken3421/chicken3421Targets.cmake">
+			<Option virtualFolder="CMake Files\lib\lib\cmake\chicken3421\"/>
+		</Unit>
+		<Unit filename="/Users/weiqiangzhuang/Doc/UNSW/COMP3421/myDemo/lib/lib/tinyobjloader/cmake/tinyobjloader-config-version.cmake">
+			<Option virtualFolder="CMake Files\lib\lib\tinyobjloader\cmake\"/>
+		</Unit>
+		<Unit filename="/Users/weiqiangzhuang/Doc/UNSW/COMP3421/myDemo/lib/lib/tinyobjloader/cmake/tinyobjloader-config.cmake">
+			<Option virtualFolder="CMake Files\lib\lib\tinyobjloader\cmake\"/>
+		</Unit>
+		<Unit filename="/Users/weiqiangzhuang/Doc/UNSW/COMP3421/myDemo/lib/lib/tinyobjloader/cmake/tinyobjloader-targets-default.cmake">
+			<Option virtualFolder="CMake Files\lib\lib\tinyobjloader\cmake\"/>
+		</Unit>
+		<Unit filename="/Users/weiqiangzhuang/Doc/UNSW/COMP3421/myDemo/lib/lib/tinyobjloader/cmake/tinyobjloader-targets.cmake">
+			<Option virtualFolder="CMake Files\lib\lib\tinyobjloader\cmake\"/>
+		</Unit>
+		<Unit filename="/Users/weiqiangzhuang/Doc/UNSW/COMP3421/myDemo/cmake/copy_resources.cmake">
+			<Option virtualFolder="CMake Files\cmake\"/>
+		</Unit>
+		<Unit filename="/Users/weiqiangzhuang/Doc/UNSW/COMP3421/myDemo/camera01/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\camera01\"/>
+		</Unit>
+		<Unit filename="/Users/weiqiangzhuang/Doc/UNSW/COMP3421/myDemo/camera01/res/awesomeface.png">
+			<Option virtualFolder="CMake Files\camera01\res\"/>
+		</Unit>
+		<Unit filename="/Users/weiqiangzhuang/Doc/UNSW/COMP3421/myDemo/camera01/res/black.png">
+			<Option virtualFolder="CMake Files\camera01\res\"/>
+		</Unit>
+		<Unit filename="/Users/weiqiangzhuang/Doc/UNSW/COMP3421/myDemo/camera01/res/camera.frag">
+			<Option virtualFolder="CMake Files\camera01\res\"/>
+		</Unit>
+		<Unit filename="/Users/weiqiangzhuang/Doc/UNSW/COMP3421/myDemo/camera01/res/camera.vert">
+			<Option virtualFolder="CMake Files\camera01\res\"/>
+		</Unit>
+		<Unit filename="/Users/weiqiangzhuang/Doc/UNSW/COMP3421/myDemo/camera01/res/container.jpg">
+			<Option virtualFolder="CMake Files\camera01\res\"/>
+		</Unit>
+		<Unit filename="/Users/weiqiangzhuang/Doc/UNSW/COMP3421/myDemo/camera01/res/marccoin.png">
+			<Option virtualFolder="CMake Files\camera01\res\"/>
+		</Unit>
+		<Unit filename="/Users/weiqiangzhuang/Doc/UNSW/COMP3421/myDemo/camera01/res/trans.png">
+			<Option virtualFolder="CMake Files\camera01\res\"/>
+		</Unit>
+		<Unit filename="/Users/weiqiangzhuang/Doc/UNSW/COMP3421/myDemo/camera02/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\camera02\"/>
+		</Unit>
+		<Unit filename="/Users/weiqiangzhuang/Doc/UNSW/COMP3421/myDemo/camera02/res/shaders/shader.frag">
+			<Option virtualFolder="CMake Files\camera02\res\shaders\"/>
+		</Unit>
+		<Unit filename="/Users/weiqiangzhuang/Doc/UNSW/COMP3421/myDemo/camera02/res/shaders/shader.vert">
+			<Option virtualFolder="CMake Files\camera02\res\shaders\"/>
+		</Unit>
+		<Unit filename="/Users/weiqiangzhuang/Doc/UNSW/COMP3421/myDemo/camera02/res/textures/clouds.png">
+			<Option virtualFolder="CMake Files\camera02\res\textures\"/>
+		</Unit>
+		<Unit filename="/Users/weiqiangzhuang/Doc/UNSW/COMP3421/myDemo/camera02/res/textures/earth.jpg">
+			<Option virtualFolder="CMake Files\camera02\res\textures\"/>
+		</Unit>
+		<Unit filename="/Users/weiqiangzhuang/Doc/UNSW/COMP3421/myDemo/camera02/res/textures/marccoin.png">
+			<Option virtualFolder="CMake Files\camera02\res\textures\"/>
+		</Unit>
+		<Unit filename="/Users/weiqiangzhuang/Doc/UNSW/COMP3421/myDemo/camera02/res/textures/mars.jpg">
+			<Option virtualFolder="CMake Files\camera02\res\textures\"/>
+		</Unit>
+		<Unit filename="/Users/weiqiangzhuang/Doc/UNSW/COMP3421/myDemo/camera02/res/textures/moon.jpg">
+			<Option virtualFolder="CMake Files\camera02\res\textures\"/>
+		</Unit>
+		<Unit filename="/Users/weiqiangzhuang/Doc/UNSW/COMP3421/myDemo/camera02/res/textures/rock.jpg">
+			<Option virtualFolder="CMake Files\camera02\res\textures\"/>
+		</Unit>
+		<Unit filename="/Users/weiqiangzhuang/Doc/UNSW/COMP3421/myDemo/camera02/res/textures/sun.jpg">
+			<Option virtualFolder="CMake Files\camera02\res\textures\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

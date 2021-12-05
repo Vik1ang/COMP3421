@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="VcsDirectoryMappings">
+    <mapping directory="$PROJECT_DIR$" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/assignments/ass1" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/assignments/ass2" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/assignments/ass3" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/chicken3421-package" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/opengl_cmake_setup" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/tutorials/tute01" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/tutorials/tute02" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/tutorials/tute03" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/tutorials/tute04" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/tutorials/tute05" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/tutorials/tute07" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/tutorials/tute08" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/tutorials/tute09" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/tutorials/tute10" vcs="Git" />
+  </component>
+</project>

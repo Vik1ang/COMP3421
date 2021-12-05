@@ -1,0 +1,8 @@
+/Users/weiqiangzhuang/Doc/UNSW/COMP3421/myDemo/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/weiqiangzhuang/Doc/UNSW/COMP3421/myDemo/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/weiqiangzhuang/Doc/UNSW/COMP3421/myDemo/cmake-build-debug/camera01/CMakeFiles/rebuild_cache.dir
+/Users/weiqiangzhuang/Doc/UNSW/COMP3421/myDemo/cmake-build-debug/camera01/CMakeFiles/edit_cache.dir
+/Users/weiqiangzhuang/Doc/UNSW/COMP3421/myDemo/cmake-build-debug/camera01/CMakeFiles/camera01.dir
+/Users/weiqiangzhuang/Doc/UNSW/COMP3421/myDemo/cmake-build-debug/camera02/CMakeFiles/rebuild_cache.dir
+/Users/weiqiangzhuang/Doc/UNSW/COMP3421/myDemo/cmake-build-debug/camera02/CMakeFiles/edit_cache.dir
+/Users/weiqiangzhuang/Doc/UNSW/COMP3421/myDemo/cmake-build-debug/camera02/CMakeFiles/camera02.dir
